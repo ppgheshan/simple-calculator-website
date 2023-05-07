@@ -14,9 +14,3 @@ function calc(){
     }
     
     alert("Answer is "+calculate);
-}
-function test(){
-    var name=document.querySelector('#name').value;
-    
-    alert("hello "+name);
-}
