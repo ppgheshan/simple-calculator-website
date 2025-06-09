@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+        
+</head>
+<body style="background-color: aqua;">
+    
+    <fieldset style="width: fit-content; position: fixed; background-color: aquamarine; align-content: center;"><table><form>
+    <tr>
+        <td><label>Enter first number</label></td>
+        <td><input type="number" id="num1"><br></td>
+    </tr>
+    <tr>
+        <td><label>Enter second number</label></td>
+        <td><input type="number" id="num2"><br></td>
+    </tr>
+    <tr>
+        <td>Choose operation</td>
+        <td><select id="op">
+                <option value="add">addition</option>
+                <option value="sub">substract</option>
+                <option value="mul">multiplication</option>
+                <option value="div">division</option>
+            </select></td>
+    </tr></table>
+    
+    <button onclick="calc();">calculate</button><br><br></form></fieldset>
+    <script src="./tes.js"></script>    
+    
+</body>
+</html>
